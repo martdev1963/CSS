@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  background-color: #dbe2ef;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  line-height: 2;
+}
+
+footer {
+  color: #41444b;
+  font-family: sans-serif;
+}
+
+.title2 {
+  margin-bottom: 10px;
+  margin-top: -47px;
+
+}
+
+.w {
+  background-image: url('drum-images/crash.png');
+}
+
+.a {
+  background-image: url('drum-images/kick.png');
+}
+
+.s {
+  background-image: url('drum-images/snare.png');
+}
+
+.d {
+  background-image: url('drum-images/tom1.png');
+}
+
+.j {
+  background-image: url('drum-images/tom2.png');
+}
+
+.k {
+  background-image: url('drum-images/tom3.png');
+}
+
+.l {
+  background-image: url('drum-images/tom4.png');
+}
+
+.m {
+  background-image: url('drum-images/hat.png'); /*  .m class for a hihat pic*/
+}
+
+.e {
+  background-image: url('drum-images/crash.png');
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.set2 {
+  margin: 3% auto;
+}
+
+.myDiv {
+  outline: none;
+  border: 2px solid #404B69;
+  font-size: 1rem;
+  font-family: 'Arvo', cursive;
+  line-height: 1;
+  font-weight: 100;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  background-color: aqua;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-top: -53px;
+  margin-left: 10px;
+  background-color: aqua;
+}
