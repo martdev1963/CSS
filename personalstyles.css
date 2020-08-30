@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------------------------------------------------
+Like most languages, CSS allows the users to add comments in the stylesheet.
+ Comments in CSS can be added by using the /* tag, which is then closed off.
+ both single and multi-line comments.
+ Note: Code that is commented out is not used to style the page. This technique can be used to add
+ css syntax:  selector{property:value;}
+              who?      what    how??
+  --------------------------------------------------------------------------------------------------------*/
+/*####################################TAG SELECTORS########################################################*/
+body {
+  background-color: #b2ebf2;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 1px;
+  width: 10%;
+}
+
+h1 {
+  color : #4b5d67;
+  font-size: 100px
+  /*----font coolor----*/
+}
+
+h3 {
+  color: #4b5d67;
+  /*----font coolor----*/
+}
+
+img:hover {
+  background-color: purple;
+
+}
+
+/*####################################CLASS SELECTORS############################################*/
+                        /* for styling a group of related items...MORE SPECIFICTHEN TAG SELECTORS*/
+.apple {
+  background-color: red;
+}
+
+.sacredGeometry {
+    background-color: green;
+}
+
+.circular {
+  border-radius: 100%
+
+}
+
+
+/*####################################ID SELECTORS############################################*/
+  /* used to apply a specific style to a single element on your web page. MORE SPECIFICTHEN TAG SELECTORS*/
+#heading {
+  color: blue;
+
+}
+
+#big {
+  font-size: 1000px
+
+}
